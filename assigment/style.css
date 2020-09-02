@@ -1,0 +1,101 @@
+.grid{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+/* .grid-one{
+display:inline-flex
+
+} */
+/* .grid-one img{
+    border:1px solid red;    
+    height:50px;
+    border-radius:30%;
+    -moz-border-radius:30%;
+    -webkit-border-radius:50%;
+    width:50px;
+} */
+.rounded-circle{
+    height: 50px;
+    width: 50px;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+small{
+    color: rgb(206, 179, 181);
+}
+.posts{
+    display: flex;
+    text-align: center;
+    width: 30%;
+    
+}
+.posts h6{
+    font-size: smaller;
+    
+}
+
+.grid-two{
+    background: rgb(243, 235, 235);
+}
+#join-btn{
+    background: red;
+    width: 120px;
+    color: white;
+}
+
+.fa{
+    color: red;
+}
+.card-option:hover{
+background-color: gray;
+border-radius: 0px 50px 50px 0px;
+}
+
+
+.grid-two{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.body{
+    display: flex;
+}
+.card-subtitle{
+    font-size: small;
+    color: gray;
+}
+.all-btn{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(90, 89, 95);
+}
+.chat .first:hover{
+    background: rgb(162, 176, 190);
+}
+small:hover{
+    color: black;
+}
+
+
+
+
+
+.subContainer{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.left-bottom h6{
+    font-size: smaller;
+    color: darkgray;
+}
+.read-btn{
+    color: white;
+    background: red;
+    height: 40px;
+    width: 120px;
+    border-radius: 3px 3px 3px 3px;
+    border-style: none;
+}
